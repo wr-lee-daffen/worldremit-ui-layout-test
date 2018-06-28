@@ -7,6 +7,14 @@ final class OptionsViewController: UIViewController
     private let rowCount: Int = 3
     private var lastRow: Int { return rowCount - 1 }
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        let insets = UIEdgeInsets(top: 24, left: 0, bottom: 0, right: 0)
+        tableView.contentInset = insets
+        tableView.scrollIndicatorInsets = insets
+    }
+
     private func present()
     {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
@@ -39,7 +47,8 @@ final class OptionsViewController: UIViewController
 
 extension OptionsViewController: UITableViewDataSource
 {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
         return rowCount
     }
 
@@ -77,13 +86,7 @@ extension OptionsViewController: UITableViewDelegate
 
         switch indexPath.row
         {
-        case 0:
-            guard let cell = tableView.cellForRow(at: indexPath) as? SwitchCell else {
-                fatalError("Unexpected type")
-            }
-            cell.isOn = !cell.isOn
-
-        case 1:
+        case 0, 1:
             guard let cell = tableView.cellForRow(at: indexPath) as? SwitchCell else {
                 fatalError("Unexpected type")
             }
@@ -95,6 +98,6 @@ extension OptionsViewController: UITableViewDelegate
     }
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 44
+        return 60
     }
 }

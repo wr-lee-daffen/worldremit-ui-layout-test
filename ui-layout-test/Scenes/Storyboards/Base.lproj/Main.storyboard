@@ -36,15 +36,14 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="LLM-Xf-FLc">
-                                                    <rect key="frame" x="310" y="6" width="51" height="32"/>
+                                                    <rect key="frame" x="310" y="7" width="51" height="31"/>
                                                 </switch>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="LLM-Xf-FLc" secondAttribute="trailing" constant="16" id="2yT-Hd-uYx"/>
-                                                <constraint firstItem="LLM-Xf-FLc" firstAttribute="top" secondItem="6FH-i9-3fE" secondAttribute="top" constant="6" id="OvR-Pd-bat"/>
                                                 <constraint firstItem="Rb7-Ba-6BO" firstAttribute="leading" secondItem="6FH-i9-3fE" secondAttribute="leading" constant="16" id="Ypw-p4-fE1"/>
                                                 <constraint firstItem="LLM-Xf-FLc" firstAttribute="leading" secondItem="Rb7-Ba-6BO" secondAttribute="trailing" constant="16" id="d7T-Jb-DxF"/>
-                                                <constraint firstAttribute="bottom" secondItem="LLM-Xf-FLc" secondAttribute="bottom" constant="6" id="goV-9L-J2Y"/>
+                                                <constraint firstItem="LLM-Xf-FLc" firstAttribute="centerY" secondItem="6FH-i9-3fE" secondAttribute="centerY" id="rl2-w4-LOX"/>
                                                 <constraint firstItem="Rb7-Ba-6BO" firstAttribute="centerY" secondItem="6FH-i9-3fE" secondAttribute="centerY" id="tfc-4C-tAA"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -190,7 +189,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1" y="-224"/>
+            <point key="canvasLocation" x="-46" y="-224"/>
         </scene>
     </scenes>
 </document>

@@ -16,7 +16,7 @@ final class SwitchCell: UITableViewCell {
 
     func configure(labelText: String)
     {
+        toggle.onTintColor = UIColor.WorldRemit.azure
         label.text = labelText
     }
-
 }

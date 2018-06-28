@@ -12,10 +12,10 @@ struct ButtonConfiguration
 extension ButtonConfiguration
 {
     static var `default` = ButtonConfiguration(font: UIFont.systemFont(ofSize: 12),
-                                               backgroundColor: UIColor.azure,
+                                               backgroundColor: UIColor.WorldRemit.azure,
                                                textColor: UIColor.white,
-                                               borderColor: UIColor.azure,
-                                               shadowColor: UIColor.azure)
+                                               borderColor: UIColor.WorldRemit.azure,
+                                               shadowColor: UIColor.WorldRemit.azure)
 }
 
 @IBDesignable
@@ -66,10 +66,10 @@ class PrimaryButton: BaseButton
 {
     override var configuration: ButtonConfiguration {
         return ButtonConfiguration(font: UIFont.systemFont(ofSize: 12),
-                                   backgroundColor: UIColor.azure,
+                                   backgroundColor: UIColor.WorldRemit.azure,
                                    textColor: UIColor.white,
-                                   borderColor: UIColor.azure,
-                                   shadowColor: UIColor.azure)
+                                   borderColor: UIColor.WorldRemit.azure,
+                                   shadowColor: UIColor.WorldRemit.azure)
     }
 }
 
@@ -79,7 +79,7 @@ class GhostButton: BaseButton
         return ButtonConfiguration(font: UIFont.systemFont(ofSize: 12),
                                    backgroundColor: UIColor.white,
                                    textColor: UIColor.black,
-                                   borderColor: UIColor.darkGray,
+                                   borderColor: UIColor.lightGray,
                                    shadowColor: UIColor.clear)
     }
 }
@@ -89,7 +89,7 @@ class LinkButton: BaseButton
     override var configuration: ButtonConfiguration {
         return ButtonConfiguration(font: UIFont.systemFont(ofSize: 12),
                                    backgroundColor: UIColor.white,
-                                   textColor: UIColor.azure,
+                                   textColor: UIColor.WorldRemit.azure,
                                    borderColor: UIColor.clear,
                                    shadowColor: UIColor.clear)
     }
