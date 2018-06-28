@@ -17,12 +17,10 @@ final class OptionsViewController: UIViewController
         let navBar: Bool = (tableView.cellForRow(at: IndexPath(row: 0, section: 0)) as? SwitchCell)?.isOn ?? false
         let tabBar: Bool = (tableView.cellForRow(at: IndexPath(row: 1, section: 0)) as? SwitchCell)?.isOn ?? false
 
-        print(navBar)
-        print(tabBar)
-
         var controller: UIViewController = buttonsController
         if navBar
         {
+            buttonsController.navigationItem.title = "Buttons"
             controller = UINavigationController(rootViewController: buttonsController)
         }
 
@@ -34,7 +32,6 @@ final class OptionsViewController: UIViewController
         }
         else
         {
-            buttonsController.navigationItem.title = "Buttons"
             present(controller, animated: true, completion: nil)
         }
     }
