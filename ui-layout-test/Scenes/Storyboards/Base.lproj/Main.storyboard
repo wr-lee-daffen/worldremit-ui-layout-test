@@ -185,6 +185,7 @@
                     </view>
                     <connections>
                         <outlet property="bottomLayoutConstraint" destination="de5-d1-HNS" id="8BC-SS-VNZ"/>
+                        <outlet property="topLayoutContraint" destination="cHb-WW-Aoc" id="Di1-Vf-S5D"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

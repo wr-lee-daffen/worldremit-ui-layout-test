@@ -2,6 +2,7 @@ import UIKit
 
 class ButtonsViewController: UIViewController
 {
+    @IBOutlet private var topLayoutContraint: NSLayoutConstraint!
     @IBOutlet private var bottomLayoutConstraint: NSLayoutConstraint!
 
     @IBAction private func handleCloseTap(_ sender: UIButton)
@@ -11,6 +12,9 @@ class ButtonsViewController: UIViewController
 
     override func viewDidLoad()
     {
-        bottomLayoutConstraint.constant = 24
+        super.viewDidLoad()
+        
+        topLayoutContraint.constant = Constants.topMargin
+        bottomLayoutConstraint.constant = Constants.bottomMargin
     }
 }

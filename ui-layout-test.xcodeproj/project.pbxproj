@@ -16,6 +16,7 @@
 		F2B0428520E4FBD200D89756 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0428420E4FBD200D89756 /* UIColorExtensions.swift */; };
 		F2B0428B20E50B1B00D89756 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0428A20E50B1B00D89756 /* OptionsViewController.swift */; };
 		F2B0428D20E50D8A00D89756 /* SwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0428C20E50D8A00D89756 /* SwitchCell.swift */; };
+		F2B0429020E5336400D89756 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0428F20E5336400D89756 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		F2B0428420E4FBD200D89756 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		F2B0428A20E50B1B00D89756 /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
 		F2B0428C20E50D8A00D89756 /* SwitchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchCell.swift; sourceTree = "<group>"; };
+		F2B0428F20E5336400D89756 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		F2B0426E20E4FA0100D89756 /* ui-layout-test */ = {
 			isa = PBXGroup;
 			children = (
+				F2B0428E20E5335200D89756 /* Config */,
 				F2B0428620E4FBF000D89756 /* Scenes */,
 				F2B0428320E4FBC300D89756 /* Extensions */,
 				F2B0426F20E4FA0100D89756 /* AppDelegate.swift */,
@@ -114,6 +117,14 @@
 				F2B0428C20E50D8A00D89756 /* SwitchCell.swift */,
 			);
 			path = Options;
+			sourceTree = "<group>";
+		};
+		F2B0428E20E5335200D89756 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				F2B0428F20E5336400D89756 /* Constants.swift */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +202,7 @@
 				F2B0428220E4FA1C00D89756 /* Button.swift in Sources */,
 				F2B0427020E4FA0100D89756 /* AppDelegate.swift in Sources */,
 				F2B0428520E4FBD200D89756 /* UIColorExtensions.swift in Sources */,
+				F2B0429020E5336400D89756 /* Constants.swift in Sources */,
 				F2B0428B20E50B1B00D89756 /* OptionsViewController.swift in Sources */,
 				F2B0428D20E50D8A00D89756 /* SwitchCell.swift in Sources */,
 			);
