@@ -17,7 +17,7 @@
 		F2B0428B20E50B1B00D89756 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0428A20E50B1B00D89756 /* OptionsViewController.swift */; };
 		F2B0428D20E50D8A00D89756 /* SwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0428C20E50D8A00D89756 /* SwitchCell.swift */; };
 		F2B0429020E5336400D89756 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0428F20E5336400D89756 /* Constants.swift */; };
-		F2B0429220E53CAB00D89756 /* UIFontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0429120E53CAB00D89756 /* UIFontExtensions.swift */; };
+		F2B0429220E53CAB00D89756 /* UIFont+WorldRemit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0429120E53CAB00D89756 /* UIFont+WorldRemit.swift */; };
 		F2B0429420EA38F900D89756 /* UIColor+RGBA.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0429320EA38F900D89756 /* UIColor+RGBA.swift */; };
 		F2B0429620EA393400D89756 /* UIColor+Adjustment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B0429520EA393400D89756 /* UIColor+Adjustment.swift */; };
 /* End PBXBuildFile section */
@@ -35,7 +35,7 @@
 		F2B0428A20E50B1B00D89756 /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
 		F2B0428C20E50D8A00D89756 /* SwitchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchCell.swift; sourceTree = "<group>"; };
 		F2B0428F20E5336400D89756 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		F2B0429120E53CAB00D89756 /* UIFontExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExtensions.swift; sourceTree = "<group>"; };
+		F2B0429120E53CAB00D89756 /* UIFont+WorldRemit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+WorldRemit.swift"; sourceTree = "<group>"; };
 		F2B0429320EA38F900D89756 /* UIColor+RGBA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+RGBA.swift"; sourceTree = "<group>"; };
 		F2B0429520EA393400D89756 /* UIColor+Adjustment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Adjustment.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,7 +147,7 @@
 		F2B0429820EA394B00D89756 /* UIFont */ = {
 			isa = PBXGroup;
 			children = (
-				F2B0429120E53CAB00D89756 /* UIFontExtensions.swift */,
+				F2B0429120E53CAB00D89756 /* UIFont+WorldRemit.swift */,
 			);
 			path = UIFont;
 			sourceTree = "<group>";
@@ -230,7 +230,7 @@
 				F2B0428520E4FBD200D89756 /* UIColor+WorldRemit.swift in Sources */,
 				F2B0429020E5336400D89756 /* Constants.swift in Sources */,
 				F2B0428B20E50B1B00D89756 /* OptionsViewController.swift in Sources */,
-				F2B0429220E53CAB00D89756 /* UIFontExtensions.swift in Sources */,
+				F2B0429220E53CAB00D89756 /* UIFont+WorldRemit.swift in Sources */,
 				F2B0429420EA38F900D89756 /* UIColor+RGBA.swift in Sources */,
 				F2B0428D20E50D8A00D89756 /* SwitchCell.swift in Sources */,
 			);

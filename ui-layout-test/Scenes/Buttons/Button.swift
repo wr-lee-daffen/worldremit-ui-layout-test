@@ -11,7 +11,7 @@ struct ButtonConfiguration
 
 extension ButtonConfiguration
 {
-    static var `default` = ButtonConfiguration(font: UIFont.worldRemit.button.medium,
+    static var `default` = ButtonConfiguration(font: UIFont.worldRemit.buttonLabel,
                                                backgroundColor: UIColor.worldRemit.azure,
                                                textColor: UIColor.white,
                                                borderColor: UIColor.worldRemit.azure,
@@ -65,7 +65,7 @@ class BaseButton: UIButton
 class PrimaryButton: BaseButton
 {
     override var configuration: ButtonConfiguration {
-        return ButtonConfiguration(font: UIFont.worldRemit.button.medium,
+        return ButtonConfiguration(font: UIFont.worldRemit.buttonLabel,
                                    backgroundColor: UIColor.worldRemit.azure,
                                    textColor: UIColor.white,
                                    borderColor: UIColor.worldRemit.azure,
@@ -76,7 +76,7 @@ class PrimaryButton: BaseButton
 class GhostButton: BaseButton
 {
     override var configuration: ButtonConfiguration {
-        return ButtonConfiguration(font: UIFont.worldRemit.button.medium,
+        return ButtonConfiguration(font: UIFont.worldRemit.buttonLabel,
                                    backgroundColor: UIColor.white,
                                    textColor: UIColor.black,
                                    borderColor: UIColor.lightGray,
@@ -87,7 +87,7 @@ class GhostButton: BaseButton
 class LinkButton: BaseButton
 {
     override var configuration: ButtonConfiguration {
-        return ButtonConfiguration(font: UIFont.worldRemit.button.medium,
+        return ButtonConfiguration(font: UIFont.worldRemit.buttonLabel,
                                    backgroundColor: UIColor.white,
                                    textColor: UIColor.worldRemit.azure,
                                    borderColor: UIColor.clear,
