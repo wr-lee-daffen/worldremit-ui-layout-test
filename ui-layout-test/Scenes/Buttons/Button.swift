@@ -11,11 +11,11 @@ struct ButtonConfiguration
 
 extension ButtonConfiguration
 {
-    static var `default` = ButtonConfiguration(font: UIFont.systemFont(ofSize: 12),
-                                               backgroundColor: UIColor.WorldRemit.azure,
+    static var `default` = ButtonConfiguration(font: UIFont.worldRemit.button.medium,
+                                               backgroundColor: UIColor.worldRemit.azure,
                                                textColor: UIColor.white,
-                                               borderColor: UIColor.WorldRemit.azure,
-                                               shadowColor: UIColor.WorldRemit.azure)
+                                               borderColor: UIColor.worldRemit.azure,
+                                               shadowColor: UIColor.worldRemit.azure)
 }
 
 @IBDesignable
@@ -65,18 +65,18 @@ class BaseButton: UIButton
 class PrimaryButton: BaseButton
 {
     override var configuration: ButtonConfiguration {
-        return ButtonConfiguration(font: UIFont.systemFont(ofSize: 12),
-                                   backgroundColor: UIColor.WorldRemit.azure,
+        return ButtonConfiguration(font: UIFont.worldRemit.button.medium,
+                                   backgroundColor: UIColor.worldRemit.azure,
                                    textColor: UIColor.white,
-                                   borderColor: UIColor.WorldRemit.azure,
-                                   shadowColor: UIColor.WorldRemit.azure)
+                                   borderColor: UIColor.worldRemit.azure,
+                                   shadowColor: UIColor.worldRemit.azure)
     }
 }
 
 class GhostButton: BaseButton
 {
     override var configuration: ButtonConfiguration {
-        return ButtonConfiguration(font: UIFont.systemFont(ofSize: 12),
+        return ButtonConfiguration(font: UIFont.worldRemit.button.medium,
                                    backgroundColor: UIColor.white,
                                    textColor: UIColor.black,
                                    borderColor: UIColor.lightGray,
@@ -87,9 +87,9 @@ class GhostButton: BaseButton
 class LinkButton: BaseButton
 {
     override var configuration: ButtonConfiguration {
-        return ButtonConfiguration(font: UIFont.systemFont(ofSize: 12),
+        return ButtonConfiguration(font: UIFont.worldRemit.button.medium,
                                    backgroundColor: UIColor.white,
-                                   textColor: UIColor.WorldRemit.azure,
+                                   textColor: UIColor.worldRemit.azure,
                                    borderColor: UIColor.clear,
                                    shadowColor: UIColor.clear)
     }
